@@ -1,0 +1,152 @@
+<html lang="en">
+  <head>
+<style type="text/css">
+</style>
+<title>
+MACHINE MAKING WITH R
+</title>
+</head>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# MACHINE MAKING WITH R
+<br>
+Xavier Lemyre
+<br>
+April 19, 2020
+
+<br><br>
+
+# ACKNOWLEDGEMENTS
+
+<br>
+
+In grateful recognition of support to open-source, Thank you.
+
+<br>
+
+Copyright © 2020
+<br>
+Open ◎ 2020 X
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+
+
+<br><br>
+
+## R
+
+```{r, echo = TRUE}
+is.R()#? #utf8
+```
+
+```{r, echo = FALSE}
+cat("THE SOFTWARE IS PROVIDED `AS IS`, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.")
+```
+
+
+<br><br>
+
+<iframe
+    width="600"
+    height="300"
+    src="file://C:/MIT/MM/R/PS-0002.mp4">
+</iframe>
+
+<br><br>
+
+
+## LEARNING
+
+$$
+\begin{equation}
+\forall X \in M \text{ there exists } M'=M \text{ such that } x_r \in X \text{ is countable if for } x_{r_0} \geq 0 \text{ we can verrify that } r_0 > 0.
+\end{equation}
+$$
+
+## INCLUSION
+
+$$
+\begin{equation}
+\text{ Let } i = r \text{ if } x_r \in \mathbb{R}^{+} \text{ and } i \geq 1.
+\end{equation}
+$$
+
+
+## UNITY
+
+$$
+\begin{equation}
+\text{ You can embed, for example: }
+\end{equation}
+$$
+
+```{r, echo=FALSE}
+rm(list = ls())
+M <- data.frame(W = c(1),
+                X = c((1:10000)/100),
+                Y = c(1/2),
+                Z = c(0))
+L <- length(M$X)
+XL <- M$X * L
+M.XL <- rbind(head(XL),tail(XL))
+M.XL
+  plot(x = M$X, y = M$Y)
+```
+
+Note that the `echo = TRUE` parameter prints the R code that generated the plot.
+
+## ACTIONS
+
+$$
+\begin{equation}
+\text{ Further, suppose that an action } \alpha \text { is based on effort, } e.
+\end{equation}
+$$
+
+## OBSERVATIONS
+
+$$
+\begin{equation}
+\text{ Does the effort } e \text{ reflect the action } \alpha \text{ from the perspective of } i \text { ? }
+\end{equation}
+$$
+
+## EQUALITY
+
+$$
+\begin{equation}
+\text{ Let } = \text{ represent parity in social participation } \text { ? }
+\end{equation}
+$$
+
+
+```{r, echo=FALSE}
+rm(list = ls())
+I <- 1000000
+M <- data.frame(W = c(1),
+                X = c((1:I)/I),
+                Y = c(1/2),
+                Z = c(0))
+L <- length(M$X)
+XL <- M$X * L
+z <- (-1)^(M$X*I)
+M.XL <- rbind(head(XL),tail(XL))
+M.XL
+plot(x = M$X, y = M$Y*z)
+```
+
+<br><br>
+
+<iframe
+    width="150"
+    height="150"
+    src="">
+</iframe>
+</body>
+</html>
