@@ -143,6 +143,10 @@ plot(x = M$X, y = M$Y*z)
  
 ## COMMON GOOD
 
+With sufficient Diversity: Unity and Equality transform hard evidence in time, by iteration. For an Artist's Proof please see below.
+
+While "hand-made" proofs may be demonstrated alone, a concrete proof weould require a collaborative approach to ensure the foundations settle.
+
 <br><br>
 
 <iframe
