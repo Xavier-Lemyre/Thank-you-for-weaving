@@ -140,6 +140,8 @@ M.XL <- rbind(head(XL),tail(XL))
 M.XL
 plot(x = M$X, y = M$Y*z)
 ```
+ 
+## COMMON GOOD
 
 <br><br>
 
