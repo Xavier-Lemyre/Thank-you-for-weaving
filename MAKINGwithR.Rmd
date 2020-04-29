@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <br>
 Xavier Lemyre
 <br>
-April 19, 2020
+April 29, 2020
 
 <br><br>
 
@@ -152,7 +152,7 @@ While "hand-made" proofs may be demonstrated alone, a concrete proof weould requ
 <iframe
     width="150"
     height="150"
-    src="C:/MIT/MM/R/PS-0002.mp4">
+    src="C:/MIT/MM/R/WIN_20200429_04_36_45_Pro.jpg">
 </iframe>
 </body>
 </html>
