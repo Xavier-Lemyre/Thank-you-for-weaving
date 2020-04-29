@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <br>
 Xavier Lemyre
 <br>
-April 29, 2020
+April 19, 2020 and April 29, 2020
 
 <br><br>
 
